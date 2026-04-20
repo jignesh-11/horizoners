@@ -58,7 +58,7 @@ export default function Features() {
           </h2>
           <div className="w-24 h-1 bg-grass mx-auto mb-6" />
           <p className="text-zinc-400 max-w-xl mx-auto font-sans leading-relaxed text-sm md:text-base px-4">
-            Horizoners isn\'t just a server—it\'s a community of friends. Discover why our players choose us for their ultimate small-scale Minecraft Bedrock journey.
+            Horizoners isn't just a server—it's a community of friends. Discover why our players choose us for their ultimate small-scale Minecraft Bedrock journey.
           </p>
         </div>
 
