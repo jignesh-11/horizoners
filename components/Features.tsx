@@ -50,14 +50,14 @@ const features = [
 
 export default function Features() {
   return (
-    <section id="features" className="py-24 px-4 bg-black/40">
+    <section id="features" className="py-16 md:py-24 px-4 bg-black/40">
       <div className="container max-w-6xl mx-auto">
-        <div className="text-center mb-16">
-          <h2 className="text-3xl md:text-5xl font-pixel text-white mb-4">
+        <div className="text-center mb-12 md:text-center md:mb-16">
+          <h2 className="text-2xl md:text-5xl font-pixel text-white mb-4 px-2">
             HORIZONERS MINECRAFT SERVER FEATURES
           </h2>
           <div className="w-24 h-1 bg-grass mx-auto mb-6" />
-          <p className="text-zinc-400 max-w-xl mx-auto font-sans leading-relaxed">
+          <p className="text-zinc-400 max-w-xl mx-auto font-sans leading-relaxed text-sm md:text-base px-4">
             Horizoners is a premier survival multiplayer experience. Discover why our players choose Horizoners for their ultimate Minecraft Bedrock journey.
           </p>
         </div>
@@ -71,7 +71,7 @@ export default function Features() {
               viewport={{ once: true }}
               transition={{ delay: index * 0.1 }}
               whileHover={{ scale: 1.02 }}
-              className="group relative p-8 glass glass-hover rounded-xl overflow-hidden"
+              className="group relative p-6 md:p-8 glass glass-hover rounded-xl overflow-hidden"
             >
               {/* Feature Glow */}
               <div className={`absolute -top-10 -right-10 w-32 h-32 blur-3xl rounded-full ${feature.glow} opacity-0 group-hover:opacity-100 transition-opacity`} />

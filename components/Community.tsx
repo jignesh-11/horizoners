@@ -38,32 +38,32 @@ export default function Community() {
           initial={{ opacity: 0, scale: 0.9 }}
           whileInView={{ opacity: 1, scale: 1 }}
           viewport={{ once: true }}
-          className="glass p-12 md:p-20 rounded-3xl border-2 border-white/10 bg-end/5"
+          className="glass p-8 md:p-20 rounded-3xl border-2 border-white/10 bg-end/5"
         >
           {/* HIGHLY VISIBLE LIVE STATS */}
-          <div className="flex flex-col md:flex-row justify-center items-center gap-4 mb-10">
+          <div className="flex flex-col sm:flex-row justify-center items-center gap-4 mb-10">
             {memberCount !== null && (
-              <div className="flex items-center gap-3 px-6 py-2.5 rounded-full bg-white/10 border-2 border-white/20 shadow-[0_0_20px_rgba(255,255,255,0.1)]">
-                <Users className="w-5 h-5 text-sky" />
-                <span className="text-white font-pixel text-sm">{memberCount} MEMBERS</span>
+              <div className="flex items-center gap-3 px-6 py-2.5 rounded-full bg-white/10 border-2 border-white/20 shadow-[0_0_20px_rgba(255,255,255,0.1)] w-full sm:w-auto justify-center">
+                <Users className="w-4 h-4 md:w-5 md:h-5 text-sky" />
+                <span className="text-white font-pixel text-[10px] md:text-sm">{memberCount} MEMBERS</span>
               </div>
             )}
             
             {onlineCount !== null && (
-              <div className="flex items-center gap-3 px-6 py-2.5 rounded-full bg-green-500/10 border-2 border-green-500/30 shadow-[0_0_20px_rgba(34,197,94,0.2)]">
+              <div className="flex items-center gap-3 px-6 py-2.5 rounded-full bg-green-500/10 border-2 border-green-500/30 shadow-[0_0_20px_rgba(34,197,94,0.2)] w-full sm:w-auto justify-center">
                 <span className="relative flex h-3 w-3">
                   <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-green-400 opacity-75"></span>
                   <span className="relative inline-flex rounded-full h-3 w-3 bg-green-500 shadow-[0_0_10px_#22c55e]"></span>
                 </span>
-                <span className="text-green-400 font-pixel text-sm uppercase">{onlineCount} ONLINE NOW</span>
+                <span className="text-green-400 font-pixel text-[10px] md:text-sm uppercase">{onlineCount} ONLINE NOW</span>
               </div>
             )}
           </div>
 
-          <h2 className="text-3xl md:text-5xl font-pixel text-white mb-8 drop-shadow-[0_0_15px_rgba(139,92,246,0.3)]">
+          <h2 className="text-2xl md:text-5xl font-pixel text-white mb-6 md:mb-8 drop-shadow-[0_0_15px_rgba(139,92,246,0.3)]">
             JOIN THE COMMUNITY
           </h2>
-          <p className="text-zinc-400 text-lg mb-12 max-w-2xl mx-auto font-sans leading-relaxed">
+          <p className="text-zinc-400 text-sm md:text-lg mb-8 md:mb-12 max-w-2xl mx-auto font-sans leading-relaxed">
             Connect with our growing community, get the latest updates, and participate in exclusive giveaways on our official Discord server.
           </p>
 
@@ -74,9 +74,9 @@ export default function Community() {
               rel="noopener noreferrer"
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}
-              className="flex items-center gap-3 px-10 py-5 bg-[#5865F2] hover:bg-[#4752c4] text-white font-bold rounded-xl transition-all shadow-[0_10px_40px_rgba(88,101,242,0.3)] text-xl"
+              className="flex items-center gap-3 px-8 py-4 md:px-10 md:py-5 bg-[#5865F2] hover:bg-[#4752c4] text-white font-bold rounded-xl transition-all shadow-[0_10px_40px_rgba(88,101,242,0.3)] text-base md:text-xl w-full sm:w-auto justify-center"
             >
-              <MessageSquare className="w-8 h-8" />
+              <MessageSquare className="w-6 h-6 md:w-8 md:h-8" />
               JOIN DISCORD
             </motion.a>
           </div>
