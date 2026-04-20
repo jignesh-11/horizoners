@@ -42,7 +42,7 @@ export const metadata: Metadata = {
     canonical: "https://horizoners.vercel.app",
   },
   verification: {
-    google: "4A4A6Elr6XZ83DWxR0-Lt93QI_jGZNUY3-D_vcFRaVI",
+    google: "1a-KTmp7yINXoYFSeLab7jxD_xXZYvWETPW5vAMeF9o",
   },
 };
 
