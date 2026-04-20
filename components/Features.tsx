@@ -5,43 +5,43 @@ import { Shield, Coins, Users, Zap, Trophy, Globe } from 'lucide-react';
 
 const features = [
   {
-    title: 'Survival Multiplayer',
-    description: 'Classic survival with a twist. Land claims, player warps, and a grief-free environment.',
+    title: 'Horizoners Survival SMP',
+    description: 'The ultimate survival experience. Land claims, player warps, and a grief-free environment tailored for our Horizoners Minecraft server community.',
     icon: Shield,
     color: 'text-grass',
     glow: 'bg-grass/20',
   },
   {
-    title: 'Economy System',
-    description: 'Robust player-driven economy with shops, trading, and unique currency mechanics.',
+    title: 'Player Economy System',
+    description: 'A robust, player-driven economy with specialized shops, trading, and unique currency mechanics only on the Horizoners survival server.',
     icon: Coins,
     color: 'text-sky',
     glow: 'bg-sky/20',
   },
   {
-    title: 'Crossplay Friendly',
-    description: 'Play with your friends on PC, Console, or Mobile. Seamless Bedrock support.',
+    title: 'Minecraft Crossplay Friendly',
+    description: 'Play with your friends on PC, Console, or Mobile. Seamless Bedrock support ensures everyone can join the Horizoners SMP community.',
     icon: Globe,
     color: 'text-nether',
     glow: 'bg-nether/20',
   },
   {
-    title: 'Custom Events',
-    description: 'Weekly events, seasonal boss fights, and community-driven build competitions.',
+    title: 'Weekly Custom Events',
+    description: 'From seasonal boss fights to building competitions, Horizoners features weekly events that keep our Minecraft survival world exciting.',
     icon: Trophy,
     color: 'text-end',
     glow: 'bg-end/20',
   },
   {
-    title: 'Performance Plus',
-    description: 'Zero lag experience with high-end dedicated hardware and optimized server software.',
+    title: 'High-Performance SMP',
+    description: 'Experience zero lag with our high-end dedicated hardware. The Horizoners Bedrock server is optimized for the best gameplay.',
     icon: Zap,
     color: 'text-grass',
     glow: 'bg-grass/20',
   },
   {
-    title: 'Thriving Community',
-    description: 'Join thousands of active players and a dedicated staff team available 24/7.',
+    title: 'Active Minecraft Community',
+    description: 'Join a thriving group of players and a dedicated staff team. Horizoners is a community-first survival multiplayer experience.',
     icon: Users,
     color: 'text-sky',
     glow: 'bg-sky/20',
@@ -54,11 +54,11 @@ export default function Features() {
       <div className="container max-w-6xl mx-auto">
         <div className="text-center mb-16">
           <h2 className="text-3xl md:text-5xl font-pixel text-white mb-4">
-            SERVER FEATURES
+            HORIZONERS MINECRAFT SERVER FEATURES
           </h2>
           <div className="w-24 h-1 bg-grass mx-auto mb-6" />
-          <p className="text-zinc-400 max-w-xl mx-auto">
-            Everything you need for the perfect Minecraft experience. Crafted with care for our community.
+          <p className="text-zinc-400 max-w-xl mx-auto font-sans leading-relaxed">
+            Horizoners is a premier survival multiplayer experience. Discover why our players choose Horizoners for their ultimate Minecraft Bedrock journey.
           </p>
         </div>
 
@@ -84,7 +84,7 @@ export default function Features() {
                 {feature.title}
               </h3>
               
-              <p className="text-zinc-400 leading-relaxed">
+              <p className="text-zinc-400 leading-relaxed font-sans">
                 {feature.description}
               </p>
             </motion.div>
